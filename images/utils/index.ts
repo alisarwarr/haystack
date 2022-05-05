@@ -1,0 +1,12 @@
+export { default as message } from './message.png';
+export { default as person } from './person.png';
+export { default as file } from './file.png';
+export { default as calendar } from './calendar.png';
+export { default as shield } from './shield.png';
+export { default as mobile } from './mobile.png';
+export { default as box } from './box.png';
+export { default as book } from './book.png';
+export { default as blog } from './blog.png';
+export { default as tool } from './tool.png';
+export { default as persons } from './persons.png';
+export { default as unknown } from './unknown.png';

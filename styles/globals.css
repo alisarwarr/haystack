@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+.app {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    overflow: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow-x: hidden;
+
+}
+
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+li {
+    padding-left: 2.15em;
+}
+li:before {
+    color: red;
+    content: "\f00c";        /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -2.15em;    /* same as padding-left set on li */
+    width: 2.15em;           /* same as padding-left set on li */
+}
+
+
+.react-responsive-modal-root {
+    overflow-y: hidden;
+}
